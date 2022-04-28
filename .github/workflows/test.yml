@@ -1,6 +1,7 @@
 name: Python 3.7
-on: [push]
-  branches:
+on: 
+  push:
+    branches:
       - master
 jobs:
   build:
