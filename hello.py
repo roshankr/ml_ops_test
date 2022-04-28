@@ -3,5 +3,9 @@ def add(x, y):
 
     return x + y
 
+def mult(x, y):
+    """This is an mult function"""
+
+    return x * y
 
 print(add(1, 1))
